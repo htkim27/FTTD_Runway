@@ -9,4 +9,4 @@ yt.streams.filter(adaptive=True, file_extension="mp4", only_video=True)\
 .order_by("resolution")\
 .desc()\
 .first()\
-.download(output_path=save_path, filename_prefix=f"{prefix} "
+.download(output_path=save_path, filename_prefix=f"{prefix} ")
